@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ProductApplication
+
+  datasource:
+    url: jdbc:mysql://localhost:3307/training
+    username: root
+    password: root
+  jpa:
+    show_sql: true
+server:
+  port: 8082
+
