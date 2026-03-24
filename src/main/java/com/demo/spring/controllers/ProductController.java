@@ -42,5 +42,4 @@ public class ProductController {
     public ResponseEntity<List<Product>> getProductsCheaperThan(@PathVariable Double price) {
         return ResponseEntity.ok(productService.findCheaperThan(price));
     }
-
 }

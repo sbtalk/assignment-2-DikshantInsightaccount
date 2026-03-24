@@ -1,6 +1,7 @@
 package com.demo.spring.services;
 
 import com.demo.spring.entities.Product;
+import com.demo.spring.exceptions.ProductNotFoundException;
 import com.demo.spring.repositories.ProductRepository;
 import org.springframework.stereotype.Service;
 
@@ -23,7 +24,7 @@ public class ProductService {
             return productOptional.get();
         }
         else{
-            throw new RuntimeException();
+            throw new ProductNotFoundException();
         }
 
     }
