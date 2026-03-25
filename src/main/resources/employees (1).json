@@ -1,0 +1,44 @@
+{
+  "employees": [
+    {
+      "name": "Shantanu",
+      "role": "Developer"
+    },
+    {
+      "name": "Ranga",
+      "role": "Designer"
+    },
+    {
+      "name": "Pretham",
+      "role": "Manager"
+    },
+    {
+      "name": "Dinesh",
+      "role": "Tester"
+    },
+    {
+      "name": "Raja",
+      "role": "Developer"
+    },
+    {
+      "name": "Tushar",
+      "role": "Designer"
+    },
+    {
+      "name": "Ashish",
+      "role": "Manager"
+    },
+    {
+      "name": "Karan",
+      "role": "Developer"
+    },
+    {
+      "name": "Tirumala",
+      "role": "Tester"
+    },
+    {
+      "name": "Chitra",
+      "role": "Designer"
+    }
+  ]
+}
